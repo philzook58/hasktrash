@@ -1,0 +1,3 @@
+double x = x * x
+
+

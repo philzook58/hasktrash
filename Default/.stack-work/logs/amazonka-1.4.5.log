@@ -1,0 +1,51 @@
+Configuring amazonka-1.4.5...
+Building amazonka-1.4.5...
+Preprocessing library amazonka-1.4.5...
+[ 1 of 10] Compiling Network.AWS.Presign ( src/Network/AWS/Presign.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Presign.o )
+[ 2 of 10] Compiling Network.AWS.Internal.Logger ( src/Network/AWS/Internal/Logger.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Internal/Logger.o )
+[ 3 of 10] Compiling Network.AWS.Internal.Body ( src/Network/AWS/Internal/Body.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Internal/Body.o )
+
+src/Network/AWS/Internal/Body.hs:13:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 4 of 10] Compiling Network.AWS.EC2.Metadata ( src/Network/AWS/EC2/Metadata.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/EC2/Metadata.o )
+[ 5 of 10] Compiling Network.AWS.Data ( src/Network/AWS/Data.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data.o )
+[ 6 of 10] Compiling Network.AWS.Auth ( src/Network/AWS/Auth.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Auth.o )
+
+src/Network/AWS/Auth.hs:63:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Network/AWS/Auth.hs:353:35: warning: [-Wname-shadowing]
+    This binding for ‘region’ shadows the existing binding
+      imported from ‘Network.AWS.EC2.Metadata’ at src/Network/AWS/Auth.hs:79:1-41
+      (and originally defined at src/Network/AWS/EC2/Metadata.hs:377:1-6)
+[ 7 of 10] Compiling Network.AWS.Env  ( src/Network/AWS/Env.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Env.o )
+
+src/Network/AWS/Env.hs:42:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Network/AWS/Env.hs:193:24: warning: [-Wdeprecations]
+    In the use of ‘conduitManagerSettings’
+    (imported from Network.HTTP.Conduit):
+    Deprecated: "Use tlsManagerSettings"
+[ 8 of 10] Compiling Network.AWS.Internal.HTTP ( src/Network/AWS/Internal/HTTP.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Internal/HTTP.o )
+[ 9 of 10] Compiling Control.Monad.Trans.AWS ( src/Control/Monad/Trans/AWS.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Control/Monad/Trans/AWS.o )
+[10 of 10] Compiling Network.AWS      ( src/Network/AWS.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS.o )
+
+src/Network/AWS.hs:149:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Network/AWS.hs:169:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+Installing library in
+/Users/ph27868/.stack/snapshots/x86_64-osx/lts-9.14/8.0.2/lib/x86_64-osx-ghc-8.0.2/amazonka-1.4.5-L7O97rmrBzU8AvXG9zeevP
+Registering amazonka-1.4.5...

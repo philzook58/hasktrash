@@ -1,0 +1,1825 @@
+
+==================== FINAL INTERFACE ====================
+2017-12-04 21:45:20.155551 UTC
+
+interface main@main:Main 8002
+  interface hash: 362d7650feed1a965b7abf230f6ba341
+  ABI hash: 9f6297d86f546a6650e6076cf06a82e6
+  export-list hash: 35ddb71ef274d082689cd467311899be
+  orphan hash: 68b00330be980800d21e9387822de2c9
+  flag hash: ee7d91cca2199abdfb27e0b6ebe7401c
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.baeJobDef
+  Main.defaultParams
+  Main.instanceOverview
+  Main.jobDefReq
+  Main.jobParamsToHashMap
+  Main.main
+  Main.say
+  Main.sendHelper
+  Main.submitJob'
+  Main.submitJob''
+  Main.JobParams{Main.JobParams params shellApi thPort}
+module dependencies:
+package dependencies: StateVar-1.1.0.4@StateVar-1.1.0.4-5dJbnTVECtEAhfJXPZKdbO
+                      adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp
+                      aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      amazonka-1.5.0@amazonka-1.5.0-KjruLD0exDYG7IZOgVY1aP
+                      amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt
+                      amazonka-core-1.5.0@amazonka-core-1.5.0-Gy2PT7hAfio86mNGkvukCD
+                      array-0.5.1.1@array-0.5.1.1
+                      asn1-encoding-0.9.5@asn1-encoding-0.9.5-45LpJZllZMcCe9NMOT8lHG
+                      asn1-parse-0.9.4@asn1-parse-0.9.4-I2xK7HlcV3s5UQwJNrjAXx
+                      asn1-types-0.3.2@asn1-types-0.3.2-3mo9TJYjZl0E4sRVlZTwYk
+                      async-2.1.1.1@async-2.1.1.1-8yywY4inVGRLJSCg60gBXj
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj
+                      basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-LxClHUTiKUUAxWtvJ5Oeoy
+                      blaze-html-0.9.0.1@blaze-html-0.9.0.1-GQ0yZtPYt2i2KdgnUEOA8p
+                      blaze-markup-0.8.0.0@blaze-markup-0.8.0.0-GsxkVbRgODkgUQDmmDVob
+                      byteable-0.1.1@byteable-0.1.1-2lU1pexQSLj1KbNO17UifQ
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      call-stack-0.1.0@call-stack-0.1.0-FYVrCPXGP9EGAuTW32963O
+                      case-insensitive-1.2.0.10@case-insensitive-1.2.0.10-1D5OUKQ7UrJ7IpOe0di4Un
+                      cereal-0.5.4.0@cereal-0.5.4.0-BsAGxfp8yAs3CiRo2E875e
+                      comonad-5.0.2@comonad-5.0.2-Fq9Xy9jdx6uIyJZn00E6Yc
+                      conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i
+                      conduit-extra-1.1.17@conduit-extra-1.1.17-LHyPtC0nGlzDcgVxOcd4h4
+                      connection-0.2.8@connection-0.2.8-8xwt6kw6xxEKgAmFqMS2Pr
+                      containers-0.5.7.1@containers-0.5.7.1
+                      contravariant-1.4@contravariant-1.4-29zF0Im431177ovfbHYCGv
+                      cookie-0.4.3@cookie-0.4.3-LVlxdgOdUJj73o1VFenWKF
+                      cryptonite-0.23@cryptonite-0.23-B2QruyompNMGbr9rx9h1sv
+                      data-default-0.7.1.1@data-default-0.7.1.1-Atv1ZD6t1rI1MrH9qSGaQC
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-bob6IQGdJq92c061H46zK
+                      data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-LBT1sjxIvyd63eC0aI9yNO
+                      data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-9zaGDEmgOixKkmLylWdN5l
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 directory-1.3.0.0@directory-1.3.0.0
+                      distributive-0.5.3@distributive-0.5.3-IX4kyVcHAyoH4uFYrsjY1R
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      filepath-1.4.1.1@filepath-1.4.1.1
+                      foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf
+                      free-4.12.4@free-4.12.4-C2gBQV0m8J42HxqSLTFyVx
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      hourglass-0.2.10@hourglass-0.2.10-pnbvWmzfcY1rOFETQEmcY
+                      http-client-0.5.7.1@http-client-0.5.7.1-JXMrQZyx8tLLaSc7JvXnkJ
+                      http-client-tls-0.3.5.1@http-client-tls-0.3.5.1-L6x5Pcf9QbJ2ZUMMtK4XcG
+                      http-conduit-2.2.3.2@http-conduit-2.2.3.2-Dkh0iVKbDV7GWplpkqfbuB
+                      http-types-0.9.1@http-types-0.9.1-G7E1zHPzooHCYxKqGuQmxY
+                      ini-0.3.5@ini-0.3.5-DG3o0lTa3wqT6VTkve5MB integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX
+                      lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW
+                      lifted-base-0.2.3.11@lifted-base-0.2.3.11-Ei0JSPdt7KOCD2HIA5jFqV
+                      memory-0.14.8@memory-0.14.8-5gChKptja3L48mJBRibgYj
+                      mmorph-1.0.9@mmorph-1.0.9-5bASEvmIkr5CpdAYXwPsn0
+                      monad-control-1.0.2.2@monad-control-1.0.2.2-1Ci8dYJ8Tb7E3HTcTqOb8l
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz
+                      network-uri-2.6.1.0@network-uri-2.6.1.0-7BN1tbB3iHQ2XgvmqLAYph
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      parsec-3.1.11@parsec-3.1.11-1aqiimsgq2dCv7eoaC8WuX
+                      pem-0.2.2@pem-0.2.2-CkEwei5500yF2642aAaOAi
+                      prelude-extras-0.4.0.3@prelude-extras-0.4.0.3-BhL9U5k7NtGJn1itwIHt2Y
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      process-1.4.3.0@process-1.4.3.0
+                      profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4
+                      resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi
+                      retry-0.7.4.3@retry-0.7.4.3-1X1IZgcgwnSamUWe4rgR7
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      semigroupoids-5.2.1@semigroupoids-5.2.1-Db8txM8kTsI6Y49CY6g5Jn
+                      socks-0.5.5@socks-0.5.5-JArtPcFTnbCItWBjXwWAhO
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      streaming-commons-0.1.17@streaming-commons-0.1.17-6xuIA5RXrs65yyeq3HWIWP
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      tls-1.3.11@tls-1.3.11-KhDw9zetejEGLe2rGJGZpr
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unix-2.7.2.1@unix-2.7.2.1
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+                      x509-1.7.2@x509-1.7.2-JsJc1Ngdo8J9qzfnm691HQ
+                      x509-store-1.6.5@x509-store-1.6.5-EnqigrIvQju7MX8aNzxK5B
+                      x509-system-1.6.6@x509-system-1.6.6-IrLZEnpD40W5sxIEM0zexM
+                      x509-validation-1.6.9@x509-validation-1.6.9-4XCNW8UOHgwAhcSg2iD0sp
+                      xml-conduit-1.5.1@xml-conduit-1.5.1-FiRHhqSLReR4vkwAA3escx
+                      xml-types-0.3.6@xml-types-0.3.6-BlXpqWNn2ZGFM9gCBPuBeT
+                      zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Block
+         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UArray.Base
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-bob6IQGdJq92c061H46zK:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-LBT1sjxIvyd63eC0aI9yNO:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-9zaGDEmgOixKkmLylWdN5l:Data.Default.Instances.OldLocale
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         http-client-0.5.7.1@http-client-0.5.7.1-JXMrQZyx8tLLaSc7JvXnkJ:Network.HTTP.Client.Request
+         network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz:Network.Socket
+         reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4:Data.Reflection
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:Data.Functor.Rep
+                         amazonka-1.5.0@amazonka-1.5.0-KjruLD0exDYG7IZOgVY1aP:Control.Monad.Trans.AWS
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.CancelJob
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.CreateComputeEnvironment
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.CreateJobQueue
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.DeleteComputeEnvironment
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.DeleteJobQueue
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.DeregisterJobDefinition
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.DescribeComputeEnvironments
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.DescribeJobDefinitions
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.DescribeJobQueues
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.DescribeJobs
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.ListJobs
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.RegisterJobDefinition
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.SubmitJob
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.TerminateJob
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.Types.Product
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.Types.Sum
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.UpdateComputeEnvironment
+                         amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.UpdateJobQueue
+                         amazonka-core-1.5.0@amazonka-core-1.5.0-Gy2PT7hAfio86mNGkvukCD:Network.AWS.Data.Base64
+                         amazonka-core-1.5.0@amazonka-core-1.5.0-Gy2PT7hAfio86mNGkvukCD:Network.AWS.Data.List1
+                         amazonka-core-1.5.0@amazonka-core-1.5.0-Gy2PT7hAfio86mNGkvukCD:Network.AWS.Data.Map
+                         amazonka-core-1.5.0@amazonka-core-1.5.0-Gy2PT7hAfio86mNGkvukCD:Network.AWS.Data.Numeric
+                         amazonka-core-1.5.0@amazonka-core-1.5.0-Gy2PT7hAfio86mNGkvukCD:Network.AWS.Data.Sensitive
+                         amazonka-core-1.5.0@amazonka-core-1.5.0-Gy2PT7hAfio86mNGkvukCD:Network.AWS.Data.Time
+                         amazonka-core-1.5.0@amazonka-core-1.5.0-Gy2PT7hAfio86mNGkvukCD:Network.AWS.Types
+                         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Block.Base
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.BoxedArray
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Monad
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.MutableBuilder
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Nat
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.NonEmpty
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Numerical.Subtractive
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.ASCII7
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.UTF16
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.UTF32
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Types.AsciiString
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Types.OffsetSize
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UArray.Base
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UTF8.Base
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Biff
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Clown
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Fix
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Flip
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Join
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Joker
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Product
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Sum
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Tannen
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Wrapped
+                         conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i:Data.Conduit.Internal.Conduit
+                         conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i:Data.Conduit.Internal.Pipe
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Array.Bitmap
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Array.Chunked.Unboxed
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Buildable
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Element
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Keyed
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Mutable
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Tuple
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         http-client-0.5.7.1@http-client-0.5.7.1-JXMrQZyx8tLLaSc7JvXnkJ:Network.HTTP.Client
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Day
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Yoneda
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.At
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Internal.Indexed
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Reified
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Tuple
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Wrapped
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Zoom
+                         monad-control-1.0.2.2@monad-control-1.0.2.2-1Ci8dYJ8Tb7E3HTcTqOb8l:Control.Monad.Trans.Control
+                         network-uri-2.6.1.0@network-uri-2.6.1.0-7BN1tbB3iHQ2XgvmqLAYph:Network.URI
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT:Data.Profunctor.Rep
+                         resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi:Control.Monad.Trans.Resource.Internal
+                         retry-0.7.4.3@retry-0.7.4.3-1X1IZgcgwnSamUWe4rgR7:Control.Retry
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+                         xml-types-0.3.6@xml-types-0.3.6-BlXpqWNn2ZGFM9gCBPuBeT:Data.XML.Types
+                         zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
+import  -/  amazonka-1.5.0@amazonka-1.5.0-KjruLD0exDYG7IZOgVY1aP:Control.Monad.Trans.AWS 69d92acf5f8adc875b0d95f9d96ea891
+import  -/  amazonka-1.5.0@amazonka-1.5.0-KjruLD0exDYG7IZOgVY1aP:Network.AWS.Auth 7a0c956f8339f750623323c4963c392c
+import  -/  amazonka-1.5.0@amazonka-1.5.0-KjruLD0exDYG7IZOgVY1aP:Network.AWS.Data f6b1d20aa5a66b36068ab44475a4f3e7
+import  -/  amazonka-1.5.0@amazonka-1.5.0-KjruLD0exDYG7IZOgVY1aP:Network.AWS.Env 5d8062e28d98f64676bd11cc22ad6171
+import  -/  amazonka-1.5.0@amazonka-1.5.0-KjruLD0exDYG7IZOgVY1aP:Network.AWS.Internal.Logger 1febed8df209fece4aa808bbf28241e8
+import  -/  amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch a7fb92ffb9ca82a35dc0bd91f07120b1
+import  -/  amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.DescribeComputeEnvironments 32d496a205e8c7b9a82364f2489cc64b
+import  -/  amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.RegisterJobDefinition 0db26434d2d6ebe9c899ca2b5e5bcd34
+import  -/  amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.SubmitJob 8f012f03bce6b743a25fee42dbd2d778
+import  -/  amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.Types.Product b0f761da3a5abcc40d64badf7ab80d7c
+import  -/  amazonka-batch-1.5.0@amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt:Network.AWS.Batch.Types.Sum 1b565ca1d974a199552cf1942562b21d
+import  -/  amazonka-core-1.5.0@amazonka-core-1.5.0-Gy2PT7hAfio86mNGkvukCD:Network.AWS.Data.Text bfb9cdda1a05b64543c79fd7cd1e7a22
+import  -/  amazonka-core-1.5.0@amazonka-core-1.5.0-Gy2PT7hAfio86mNGkvukCD:Network.AWS.Types e76f52078a914f870b7cfdbdf0508d5d
+import  -/  base-4.9.1.0:Control.Monad.IO.Class 1a4384f66ee999caf5366398edb6ca7b
+import  -/  base-4.9.1.0:Data.Function 7aca86bfbd92366def5f260e30cb2628
+import  -/  base-4.9.1.0:Data.Monoid 51cc9cd8c130d49ba96b7c2c2406022b
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.IO.Handle.FD bf0291e0f2b6c0eca5446f986999f1cc
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:System.IO c9de64c5f5407c4cf1c52500c4d15200
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder 9402b44efa5145c68081c718062d86b2
+import  -/  conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i:Data.Conduit e37e3b3c37f0a79a3bd28700740fa42a
+import  -/  conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i:Data.Conduit.List b6aad3dfd1bb16b1b469de49cbb95c59
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens 51c282815697462fb4c0814abcb89573
+import  -/  lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Getter fbeb15b7035564fc797e427366be2a86
+import  -/  lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Lens 8f4a33a22b4ff7071c49c82f2f05a170
+import  -/  lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Setter 2ba84291b39c66d4fb563b9eaed1d93d
+import  -/  resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi:Control.Monad.Trans.Resource 1359c7a5bd2b9f29c684f5f903dcf722
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.IO 3f9c77d590fdf50d5fabc890565b0341
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
+import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base 05331f9dbdce4e8225c18ce1a8ba2f88
+import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Lazy fc12dd068603a4b3dd39186b8a9fe7b5
+c364c8c5520edb883f7372b2d5f3d0f1
+  $s$fApplicativeAWST' ::
+    GHC.Base.Applicative
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.AWS.AWST'
+                       r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+                  (Main.$s$fApplicativeAWST'_$s$fApplicativeAWST'_$cp1Applicative
+                     @ r)
+                  (Control.Monad.Trans.AWS.$fApplicativeAWST'_$cpure
+                     @ r
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Main.$s$fApplicativeAWST'_$dApplicative)
+                  (Control.Monad.Trans.AWS.$fApplicativeAWST'_$c<*>
+                     @ r
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Main.$s$fApplicativeAWST'_$dApplicative)
+                  (Control.Monad.Trans.AWS.$fApplicativeAWST'_$c*>
+                     @ r
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Main.$s$fApplicativeAWST'_$dApplicative)
+                  (Control.Monad.Trans.AWS.$fApplicativeAWST'_$c<*
+                     @ r
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Main.$s$fApplicativeAWST'_$dApplicative) -}
+b158711f9ef4f85b8eceac6dfd3b0ebe
+  $s$fApplicativeAWST'_$dApplicative ::
+    GHC.Base.Applicative
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fApplicativeAWST'_$s$fApplicativeResourceT -}
+fa79904577604cc9716067fd85a42a82
+  $s$fApplicativeAWST'_$dApplicative1 ::
+    GHC.Base.Applicative GHC.Types.IO
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) GHC.Base.$fApplicativeIO -}
+abd0458dfd5ed346844f6e47e1d04f14
+  $s$fApplicativeAWST'_$dFunctor :: GHC.Base.Functor GHC.Types.IO
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) GHC.Base.$fFunctorIO -}
+bdfa3070779898117eb2f7911b8767ba
+  $s$fApplicativeAWST'_$s$fApplicativeAWST'_$cp1Applicative ::
+    GHC.Base.Functor
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fApplicativeAWST'_$s$fFunctorAWST' -}
+be65b68646a12453648a893ccce9eca8
+  $s$fApplicativeAWST'_$s$fApplicativeResourceT ::
+    GHC.Base.Applicative
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  Main.$s$fApplicativeAWST'_$s$fApplicativeResourceT_$cp1Applicative
+                  Main.$s$fApplicativeAWST'_$s$fApplicativeResourceT_$cpure
+                  (Control.Monad.Trans.Resource.Internal.$fApplicativeResourceT_$c<*>
+                     @ GHC.Types.IO
+                     Main.$s$fApplicativeAWST'_$dApplicative1)
+                  (Control.Monad.Trans.Resource.Internal.$fApplicativeResourceT_$c*>
+                     @ GHC.Types.IO
+                     Main.$s$fApplicativeAWST'_$dApplicative1)
+                  (Control.Monad.Trans.Resource.Internal.$fApplicativeResourceT_$c<*
+                     @ GHC.Types.IO
+                     Main.$s$fApplicativeAWST'_$dApplicative1) -}
+7d5886fc3b22734ebd13c1b61c1fca49
+  $s$fApplicativeAWST'_$s$fApplicativeResourceT_$cp1Applicative ::
+    GHC.Base.Functor
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fApplicativeAWST'_$s$fFunctorResourceT -}
+55d813283a774fab5f391d13dae14dbd
+  $s$fApplicativeAWST'_$s$fApplicativeResourceT_$cpure ::
+    a -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,A><S,U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a
+                   (eta :: a)
+                   (eta1 :: GHC.IORef.IORef
+                              Control.Monad.Trans.Resource.Internal.ReleaseMap)
+                   (eta2 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 (GHC.Base.returnIO @ a eta) `cast` (GHC.Types.N:IO[0] <a>_R) eta2)
+                  `cast`
+                (forall (a :: <*>_N).
+                 <a>_R
+                 ->_R Trans
+                          (<GHC.IORef.IORef
+                              Control.Monad.Trans.Resource.Internal.ReleaseMap>_R
+                           ->_R Sym (GHC.Types.N:IO[0] <a>_R))
+                          (Sym (Control.Monad.Trans.Resource.Internal.N:ResourceT[0]
+                                    <GHC.Types.IO>_R <a>_N))) -}
+e87a8991d497100ea37784f4a3fec08e
+  $s$fApplicativeAWST'_$s$fFunctorAWST' ::
+    GHC.Base.Functor
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.AWS.AWST'
+                       r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+                  (Control.Monad.Trans.AWS.$fFunctorAWST'_$cfmap
+                     @ r
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Main.$s$fApplicativeAWST'_$s$fApplicativeResourceT_$cp1Applicative)
+                  (Control.Monad.Trans.AWS.$fFunctorAWST'_$c<$
+                     @ r
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Main.$s$fApplicativeAWST'_$s$fApplicativeResourceT_$cp1Applicative) -}
+0e8494202c7bfe7276efc98fea436b69
+  $s$fApplicativeAWST'_$s$fFunctorResourceT ::
+    GHC.Base.Functor
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  (Control.Monad.Trans.Resource.Internal.$fFunctorResourceT_$cfmap
+                     @ GHC.Types.IO
+                     Main.$s$fApplicativeAWST'_$dFunctor)
+                  (Control.Monad.Trans.Resource.Internal.$fFunctorResourceT_$c<$
+                     @ GHC.Types.IO
+                     Main.$s$fApplicativeAWST'_$dFunctor) -}
+c1dae8c4fe7304ba5be5689501a492af
+  $s$fMonadAWST' ::
+    GHC.Base.Monad
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.AWS.AWST'
+                       r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+                  (Main.$s$fMonadAWST'_$s$fMonadResourceAWST'_$cp3MonadResource @ r)
+                  (Control.Monad.Trans.AWS.$fMonadAWST'_$c>>=
+                     @ r
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Main.$s$fMonadAWST'1)
+                  (Control.Monad.Trans.AWS.$fMonadAWST'_$c>>
+                     @ r
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Main.$s$fMonadAWST'1)
+                  (Control.Monad.Trans.AWS.$fMonadAWST'_$creturn
+                     @ r
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Main.$s$fMonadAWST'1)
+                  (Control.Monad.Trans.AWS.$fMonadAWST'_$cfail
+                     @ r
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Main.$s$fMonadAWST'1) -}
+ef2219e4a2f119234f4b4778c6c6bf9c
+  $s$fMonadAWST'1 ::
+    GHC.Base.Monad
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fMonadAWST'_$s$fMonadResourceT -}
+9a12e108fc648a2b6666e11e95731fa6
+  $s$fMonadAWST'_$s$fMonadResourceAWST'_$cp3MonadResource ::
+    GHC.Base.Applicative
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) Main.$s$fApplicativeAWST' -}
+b1cff14548f9dd16b847887a374091d1
+  $s$fMonadAWST'_$s$fMonadResourceT ::
+    GHC.Base.Monad
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  Main.$s$fApplicativeAWST'_$dApplicative
+                  (Control.Monad.Trans.Resource.Internal.$fMonadResourceT_$c>>=
+                     @ GHC.Types.IO
+                     GHC.Base.$fMonadIO)
+                  (Control.Monad.Trans.Resource.Internal.$fMonadResourceT_$c>>
+                     @ GHC.Types.IO
+                     GHC.Base.$fMonadIO)
+                  Main.$s$fApplicativeAWST'_$s$fApplicativeResourceT_$cpure
+                  Main.$s$fMonadAWST'_$s$fMonadResourceT_$cfail -}
+b8d29e66d6d11aea7e05336f5dc14f48
+  $s$fMonadAWST'_$s$fMonadResourceT_$cfail ::
+    GHC.Base.String
+    -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+  {- Arity: 1, Strictness: <B,U>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (eta :: GHC.Base.String) ->
+                 Control.Monad.Trans.Resource.Internal.$fMonadResourceT1
+                   @ GHC.Types.IO
+                   @ a
+                   GHC.Base.$fMonadIO
+                   eta) -}
+bfda21971d720d62f23e464892b4e5e9
+  $s$fMonadBasebAWST' ::
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ GHC.Types.IO
+                  @ (Control.Monad.Trans.AWS.AWST'
+                       r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+                  (Main.$s$fMonadBasebAWST'_$s$fMonadBasebAWST'_$cp1MonadBase @ r)
+                  (Main.$s$fMonadAWST'_$s$fMonadResourceAWST'_$cp3MonadResource @ r)
+                  (Main.$s$fMonadBasebAWST'_$s$fMonadBasebAWST'_$cp3MonadBase @ r)
+                  (Main.$s$fMonadBasebAWST'_$s$fMonadThrowAWST'_$cp1MonadThrow @ r)
+                  (Main.$s$fMonadBasebAWST'_$s$fMonadBasebAWST'_$cliftBase @ r) -}
+df94475edfbfd4a37ecc97644d9e7284
+  $s$fMonadBasebAWST'_$s$fMonadBasebAWST'_$cliftBase ::
+    GHC.Types.IO α
+    -> Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO) α
+  {- Arity: 3, HasNoCafRefs, Strictness: <S,1*U><L,A><L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ r
+                   @ α
+                   (eta :: GHC.Types.IO α)
+                   (eta1 :: r)
+                   (eta2 :: GHC.IORef.IORef
+                              Control.Monad.Trans.Resource.Internal.ReleaseMap) ->
+                 (Main.$s$fMonadBasebAWST'_$s$fMonadIOResourceT_$cliftIO @ α eta)
+                   `cast`
+                 (Control.Monad.Trans.Resource.Internal.N:ResourceT[0]
+                      <GHC.Types.IO>_R <α>_N)
+                   eta2)
+                  `cast`
+                (forall (r :: <*>_N) (α :: <*>_N).
+                 <GHC.Types.IO α>_R
+                 ->_R Trans
+                          (<r>_R
+                           ->_R Sym (Control.Monad.Trans.Resource.Internal.N:ResourceT[0]
+                                         <GHC.Types.IO>_R <α>_N))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                         <*>_N
+                                         <r>_R
+                                         <Control.Monad.Trans.Resource.Internal.ResourceT
+                                            GHC.Types.IO>_R
+                                         <α>_N))
+                               (Sym (Control.Monad.Trans.AWS.N:AWST'[0]) <r>_N <Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                  GHC.Types.IO>_N <α>_N))) -}
+f628d037758def0a1a646f800444da4f
+  $s$fMonadBasebAWST'_$s$fMonadBasebAWST'_$cp1MonadBase ::
+    GHC.Base.Applicative GHC.Types.IO
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                (\ @ r -> GHC.Base.$fApplicativeIO) -}
+dbfd829b668d63414202b3f1b81f6ea1
+  $s$fMonadBasebAWST'_$s$fMonadBasebAWST'_$cp3MonadBase ::
+    GHC.Base.Monad GHC.Types.IO
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                (\ @ r -> GHC.Base.$fMonadIO) -}
+8d99476840df2e744934f3cbef96381b
+  $s$fMonadBasebAWST'_$s$fMonadIOResourceT_$cliftIO ::
+    GHC.Types.IO a
+    -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,A>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (eta :: GHC.Types.IO a) ->
+                 let {
+                   eta1 :: GHC.Types.IO a = GHC.Base.id @ (GHC.Types.IO a) eta
+                 } in
+                 (\ (ds :: GHC.IORef.IORef
+                             Control.Monad.Trans.Resource.Internal.ReleaseMap) ->
+                  eta1)
+                   `cast`
+                 (Sym (Control.Monad.Trans.Resource.Internal.N:ResourceT[0]
+                           <GHC.Types.IO>_R <a>_N))) -}
+981d40a54b98c70e828663960cc7d5ad
+  $s$fMonadBasebAWST'_$s$fMonadThrowAWST'_$cp1MonadThrow ::
+    GHC.Base.Monad
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) Main.$s$fMonadAWST' -}
+42885c140163a96ad035ec836b76cd64
+  $s$fMonadCatchAWST' ::
+    Control.Monad.Catch.MonadCatch
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.AWS.AWST'
+                       r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+                  (Main.$s$fMonadCatchAWST'_$s$fMonadCatchAWST'_$cp1MonadCatch @ r)
+                  (Control.Monad.Trans.AWS.$fMonadCatchAWST'_$ccatch
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     @ r
+                     Main.$s$fMonadCatchAWST'1) -}
+0816c6121c6d80129bacf090a86f23da
+  $s$fMonadCatchAWST'1 ::
+    Control.Monad.Catch.MonadCatch
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fMonadCatchAWST'_$s$fMonadCatchResourceT -}
+3778070ce27dc9414f8da6acf5b8362c
+  $s$fMonadCatchAWST'_$s$fMonadCatchAWST'_$cp1MonadCatch ::
+    Control.Monad.Catch.MonadThrow
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fMonadCatchAWST'_$s$fMonadThrowAWST' -}
+5677504bc71fca09f1e77ba6c15c8feb
+  $s$fMonadCatchAWST'_$s$fMonadCatchResourceT ::
+    Control.Monad.Catch.MonadCatch
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  Main.$s$fMonadCatchAWST'_$s$fMonadResourceResourceT_$cp1MonadResource
+                  (Control.Monad.Trans.Resource.Internal.$fMonadCatchResourceT_$ccatch
+                     @ GHC.Types.IO
+                     Control.Monad.Catch.$fMonadCatchIO) -}
+23ef0566438abffdcf4279e12fa2a0be
+  $s$fMonadCatchAWST'_$s$fMonadResourceResourceT_$cp1MonadResource ::
+    Control.Monad.Catch.MonadThrow
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fMonadCatchAWST'_$s$fMonadThrowResourceT -}
+e0985b28497a307dc2088844583a09b7
+  $s$fMonadCatchAWST'_$s$fMonadThrowAWST' ::
+    Control.Monad.Catch.MonadThrow
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.AWS.AWST'
+                       r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+                  (Main.$s$fMonadBasebAWST'_$s$fMonadThrowAWST'_$cp1MonadThrow @ r)
+                  (Main.$s$fMonadCatchAWST'_$s$fMonadThrowAWST'_$cthrowM @ r) -}
+9468809c08f45396e9881db10cbdbc80
+  $s$fMonadCatchAWST'_$s$fMonadThrowAWST'_$cthrowM ::
+    GHC.Exception.Exception e =>
+    e
+    -> Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO) a
+  {- Arity: 5, HasNoCafRefs,
+     Strictness: <B,1*U(A,A,1*C1(U),A,A)><B,U><B,A><B,A><B,U>x,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ r
+                   @ e
+                   @ a
+                   (eta :: GHC.Exception.Exception e)
+                   (x :: e)
+                   (eta1 :: r)
+                   (eta2 :: GHC.IORef.IORef
+                              Control.Monad.Trans.Resource.Internal.ReleaseMap)
+                   (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 ((Main.$s$fMonadCatchAWST'_$s$fMonadThrowResourceT_$cthrowM
+                     @ e
+                     @ a
+                     eta
+                     x)
+                    `cast`
+                  (Control.Monad.Trans.Resource.Internal.N:ResourceT[0]
+                       <GHC.Types.IO>_R <a>_N)
+                    eta2)
+                   `cast`
+                 (GHC.Types.N:IO[0] <a>_R)
+                   eta3)
+                  `cast`
+                (forall (r :: <*>_N) (e :: <*>_N) (a :: <*>_N).
+                 <GHC.Exception.Exception e>_R
+                 ->_R <e>_R
+                 ->_R Trans
+                          (<r>_R
+                           ->_R Trans
+                                    (<GHC.IORef.IORef
+                                        Control.Monad.Trans.Resource.Internal.ReleaseMap>_R
+                                     ->_R Sym (GHC.Types.N:IO[0] <a>_R))
+                                    (Sym (Control.Monad.Trans.Resource.Internal.N:ResourceT[0]
+                                              <GHC.Types.IO>_R <a>_N)))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                         <*>_N
+                                         <r>_R
+                                         <Control.Monad.Trans.Resource.Internal.ResourceT
+                                            GHC.Types.IO>_R
+                                         <a>_N))
+                               (Sym (Control.Monad.Trans.AWS.N:AWST'[0]) <r>_N <Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                  GHC.Types.IO>_N <a>_N))) -}
+6b933259d517200f3f8e8fbce76a60e0
+  $s$fMonadCatchAWST'_$s$fMonadThrowResourceT ::
+    Control.Monad.Catch.MonadThrow
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  Main.$s$fMonadAWST'1
+                  Main.$s$fMonadCatchAWST'_$s$fMonadThrowResourceT_$cthrowM -}
+a6a0818c9ff7eb0c2beb0f1554140851
+  $s$fMonadCatchAWST'_$s$fMonadThrowResourceT_$cthrowM ::
+    GHC.Exception.Exception e =>
+    e -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <B,1*U(A,A,1*C1(U),A,A)><B,U><B,A><B,U>x,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ e
+                   @ a
+                   (eta :: GHC.Exception.Exception e)
+                   (x :: e)
+                   (eta1 :: GHC.IORef.IORef
+                              Control.Monad.Trans.Resource.Internal.ReleaseMap)
+                   (eta2 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 (GHC.IO.throwIO @ e @ a eta x) `cast` (GHC.Types.N:IO[0] <a>_R)
+                   eta2)
+                  `cast`
+                (forall (e :: <*>_N) (a :: <*>_N).
+                 <GHC.Exception.Exception e>_R
+                 ->_R <e>_R
+                 ->_R Trans
+                          (<GHC.IORef.IORef
+                              Control.Monad.Trans.Resource.Internal.ReleaseMap>_R
+                           ->_R Sym (GHC.Types.N:IO[0] <a>_R))
+                          (Sym (Control.Monad.Trans.Resource.Internal.N:ResourceT[0]
+                                    <GHC.Types.IO>_R <a>_N))) -}
+90d140e24d876f7a2ee3073ef5e997b5
+  $s$fMonadIOAWST' ::
+    Control.Monad.IO.Class.MonadIO
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.AWS.AWST'
+                       r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+                  (Main.$s$fMonadBasebAWST'_$s$fMonadThrowAWST'_$cp1MonadThrow @ r)
+                  (Control.Monad.Trans.AWS.$fMonadIOAWST'_$cliftIO
+                     @ r
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Main.$s$fMonadIOAWST'1) -}
+fe7c6ae3803e5852b95b35151601c0b7
+  $s$fMonadIOAWST'1 ::
+    Control.Monad.IO.Class.MonadIO
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fMonadIOAWST'_$s$fMonadIOResourceT -}
+8c4c5c2290cf6a4bcec5d91b1fdca902
+  $s$fMonadIOAWST'_$s$fMonadIOResourceT ::
+    Control.Monad.IO.Class.MonadIO
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  Main.$s$fMonadAWST'1
+                  Main.$s$fMonadBasebAWST'_$s$fMonadIOResourceT_$cliftIO -}
+59548206e68e280a5b67352ce08ad9f7
+  $s$fMonadReaderrAWST' ::
+    Control.Monad.Reader.Class.MonadReader
+      r
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ r
+                  @ (Control.Monad.Trans.AWS.AWST'
+                       r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+                  (Main.$s$fMonadBasebAWST'_$s$fMonadThrowAWST'_$cp1MonadThrow @ r)
+                  (Control.Monad.Trans.AWS.$fMonadReaderrAWST'_$cask
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     @ r
+                     Main.$s$fMonadAWST'1)
+                  (Control.Monad.Trans.AWS.$fMonadReaderrAWST'_$clocal
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     @ r
+                     Main.$s$fMonadAWST'1)
+                  (Control.Monad.Trans.AWS.$fMonadReaderrAWST'_$creader
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     @ r
+                     Main.$s$fMonadAWST'1) -}
+90eb214be811fafc046200578de101a1
+  $s$fMonadResourceAWST' ::
+    Control.Monad.Trans.Resource.Internal.MonadResource
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.AWS.AWST'
+                       r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+                  (Main.$s$fMonadCatchAWST'_$s$fMonadCatchAWST'_$cp1MonadCatch @ r)
+                  (Main.$s$fMonadResourceAWST'_$s$fMonadResourceAWST'_$cp2MonadResource
+                     @ r)
+                  (Main.$s$fMonadAWST'_$s$fMonadResourceAWST'_$cp3MonadResource @ r)
+                  (Main.$s$fMonadResourceAWST'_$s$fMonadResourceAWST'_$cp4MonadResource
+                     @ r)
+                  (Main.$s$fMonadResourceAWST'_$s$fMonadResourceAWST'_$cliftResourceT
+                     @ r) -}
+d093d1ff16b719652268986e04e85c46
+  $s$fMonadResourceAWST'_$s$fMonadResourceAWST'_$cliftResourceT ::
+    Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+    -> Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO) a
+  {- Arity: 3, HasNoCafRefs, Strictness: <C(S),1*C1(U)><L,A><L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ r
+                   @ a
+                   (eta :: Control.Monad.Trans.Resource.Internal.ResourceT
+                             GHC.Types.IO a)
+                   (eta1 :: r)
+                   (eta2 :: GHC.IORef.IORef
+                              Control.Monad.Trans.Resource.Internal.ReleaseMap) ->
+                 (Control.Monad.Trans.Resource.Internal.$fMonadResourceResourceT_$cliftResourceT
+                    @ GHC.Types.IO
+                    Control.Monad.Catch.$fMonadThrowIO
+                    Control.Monad.Base.$fMonadBaseIOIO
+                    Control.Monad.IO.Class.$fMonadIOIO
+                    GHC.Base.$fApplicativeIO
+                    @ a
+                    eta)
+                   `cast`
+                 (Control.Monad.Trans.Resource.Internal.N:ResourceT[0]
+                      <GHC.Types.IO>_R <a>_N)
+                   eta2)
+                  `cast`
+                (forall (r :: <*>_N) (a :: <*>_N).
+                 <Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a>_R
+                 ->_R Trans
+                          (<r>_R
+                           ->_R Sym (Control.Monad.Trans.Resource.Internal.N:ResourceT[0]
+                                         <GHC.Types.IO>_R <a>_N))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                         <*>_N
+                                         <r>_R
+                                         <Control.Monad.Trans.Resource.Internal.ResourceT
+                                            GHC.Types.IO>_R
+                                         <a>_N))
+                               (Sym (Control.Monad.Trans.AWS.N:AWST'[0]) <r>_N <Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                  GHC.Types.IO>_N <a>_N))) -}
+ded7776bb6789ab1e64684da9e14b382
+  $s$fMonadResourceAWST'_$s$fMonadResourceAWST'_$cp2MonadResource ::
+    Control.Monad.IO.Class.MonadIO
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) Main.$s$fMonadIOAWST' -}
+3b94dabc51e98b9491a99dc1d42ee0ce
+  $s$fMonadResourceAWST'_$s$fMonadResourceAWST'_$cp4MonadResource ::
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO
+      (Control.Monad.Trans.AWS.AWST'
+         r (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) Main.$s$fMonadBasebAWST' -}
+555c351c21b8cc939dc75776be480d00
+  $tc'JobParams :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14506528490285580080##
+                   11805787737262504619##
+                   Main.$trModule
+                   Main.$tc'JobParams1) -}
+39052fe48bcec89dcfd130e0ef9991cc
+  $tc'JobParams1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'JobParams"#) -}
+812d9760202c19306f6b35a61a15f69f
+  $tcJobParams :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7918473556061197625##
+                   5591599898673324939##
+                   Main.$trModule
+                   Main.$tcJobParams1) -}
+e0ec088331a5ce92882eb291dabfe14d
+  $tcJobParams1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "JobParams"#) -}
+d6831ef04cb9301b090dfae6f7bb7ec7
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule2 Main.$trModule1) -}
+847d9fc3b8e6f0b424199f36b4999bb2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Main"#) -}
+24ef6042833e75ffd7aa98b83ecca98d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+3a9f1a9698daeebde5d983743d61c65d
+  $w$s$wupdateOrSnocWithKey ::
+    (Data.Text.Internal.Text -> v -> v -> v)
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> v
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+  {- Arity: 6, Strictness: <L,C(C1(C1(U)))><L,U><L,U><L,U><L,U><S,U>,
+     Inline: [0],
+     Unfolding: (\ @ v
+                   (w :: Data.Text.Internal.Text -> v -> v -> v)
+                   (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (w1 :: v)
+                   (w2 :: GHC.Prim.Array#
+                            (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)) ->
+                 letrec {
+                   $wgo1 :: GHC.Prim.ByteArray#
+                            -> GHC.Prim.Int#
+                            -> GHC.Prim.Int#
+                            -> v
+                            -> GHC.Prim.Array#
+                                 (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                            -> GHC.Prim.Int#
+                            -> GHC.Prim.Int#
+                            -> GHC.Prim.Array#
+                                 (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                     {- Arity: 7, Strictness: <L,U><L,U><L,U><L,U><S,U><S,U><S,U>,
+                        Inline: [0] -}
+                   = \ (ww3 :: GHC.Prim.ByteArray#)
+                       (ww4 :: GHC.Prim.Int#)
+                       (ww5 :: GHC.Prim.Int#)
+                       (w3 :: v)
+                       (ww6 :: GHC.Prim.Array#
+                                 (Data.HashMap.Base.Leaf Data.Text.Internal.Text v))
+                       (ww7 :: GHC.Prim.Int#)
+                       (ww8 :: GHC.Prim.Int#) ->
+                     let {
+                       k2 :: Data.Text.Internal.Text = Data.Text.Internal.Text ww3 ww4 ww5
+                     } in
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww7 ww8) of wild {
+                       GHC.Types.False
+                       -> case GHC.Prim.indexArray#
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 ww6
+                                 ww7 of ds { Unit# ipv3 ->
+                          case ipv3 of wild1 { Data.HashMap.Base.L kx y ->
+                          case kx of wild2 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.==# ww5 dt5) of wild3 {
+                            GHC.Types.False
+                            -> $wgo1 ww3 ww4 ww5 w3 ww6 (GHC.Prim.+# ww7 1#) ww8
+                            GHC.Types.True
+                            -> case {__pkg_ccall text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00 _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.State#
+                                                                                                                       GHC.Prim.RealWorld
+                                                                                                                  -> (# GHC.Prim.State#
+                                                                                                                          GHC.Prim.RealWorld,
+                                                                                                                        GHC.Prim.Int# #)}
+                                      ww3
+                                      (GHC.Prim.int2Word# ww4)
+                                      dt3
+                                      (GHC.Prim.int2Word# dt4)
+                                      (GHC.Prim.int2Word# ww5)
+                                      GHC.Prim.realWorld# of wild4 { (#,#) ds11 ds12 ->
+                               case GHC.Prim.narrow32Int# ds12 of wild5 {
+                                 DEFAULT -> $wgo1 ww3 ww4 ww5 w3 ww6 (GHC.Prim.+# ww7 1#) ww8
+                                 0#
+                                 -> case GHC.Prim.thawArray#
+                                           @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                           @ GHC.Prim.RealWorld
+                                           ww6
+                                           0#
+                                           (GHC.Prim.sizeofArray#
+                                              @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                              ww6)
+                                           GHC.Prim.realWorld# of ds1 { (#,#) ipv4 ipv5 ->
+                                    case GHC.Prim.writeArray#
+                                           @ GHC.Prim.RealWorld
+                                           @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                           ipv5
+                                           ww7
+                                           (Data.HashMap.Base.L
+                                              @ Data.Text.Internal.Text
+                                              @ v
+                                              k2
+                                              (w k2 w3 y))
+                                           ipv4 of s' { DEFAULT ->
+                                    case GHC.Prim.unsafeFreezeArray#
+                                           @ GHC.Prim.RealWorld
+                                           @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                           ipv5
+                                           s' of ds2 { (#,#) ipv6 ipv7 ->
+                                    ipv7 } } } } } } } } }
+                       GHC.Types.True
+                       -> case GHC.Prim.newArray#
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 @ GHC.Prim.RealWorld
+                                 (GHC.Prim.+# ww8 1#)
+                                 (Data.HashMap.Array.undefinedElem
+                                    @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v))
+                                 GHC.Prim.realWorld# of ds { (#,#) ipv3 ipv4 ->
+                          case GHC.Prim.copyArray#
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 @ GHC.Prim.RealWorld
+                                 ww6
+                                 0#
+                                 ipv4
+                                 0#
+                                 ww8
+                                 ipv3 of s2 { DEFAULT ->
+                          case GHC.Prim.writeArray#
+                                 @ GHC.Prim.RealWorld
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 ipv4
+                                 ww8
+                                 (Data.HashMap.Base.L @ Data.Text.Internal.Text @ v k2 w3)
+                                 s2 of s' { DEFAULT ->
+                          case GHC.Prim.unsafeFreezeArray#
+                                 @ GHC.Prim.RealWorld
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 ipv4
+                                 s' of ds1 { (#,#) ipv5 ipv6 ->
+                          ipv6 } } } } }
+                 } in
+                 $wgo1
+                   ww
+                   ww1
+                   ww2
+                   w1
+                   w2
+                   0#
+                   (GHC.Prim.sizeofArray#
+                      @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                      w2)) -}
+f793cac97561cb63dc72a162469117d5
+  $w$sunsafeInsert ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> v
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+  {- Arity: 5, Strictness: <S,U><S,U><S,U><L,U><S,1*U>, Inline: [0],
+     Unfolding: (\ @ v
+                   (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (w :: v)
+                   (w1 :: Data.HashMap.Base.HashMap Data.Text.Internal.Text v) ->
+                 case {__pkg_ccall hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol hashable_fnv_hash_offset GHC.Prim.ByteArray#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.State#
+                                                                                                                          GHC.Prim.RealWorld
+                                                                                                                     -> (# GHC.Prim.State#
+                                                                                                                             GHC.Prim.RealWorld,
+                                                                                                                           GHC.Prim.Int# #)}
+                        ww
+                        (GHC.Prim.uncheckedIShiftL# ww1 1#)
+                        (GHC.Prim.uncheckedIShiftL# ww2 1#)
+                        -2578643520546668380#
+                        GHC.Prim.realWorld# of wild1 { (#,#) ds1 ds2 ->
+                 case Main.$wpoly_go1
+                        @ GHC.Prim.RealWorld
+                        @ v
+                        (GHC.Prim.int2Word# ds2)
+                        ww
+                        ww1
+                        ww2
+                        w
+                        0#
+                        w1
+                        GHC.Prim.realWorld# of ds { (#,#) ipv ipv1 ->
+                 ipv1 } }) -}
+3cd3dfa3249ad605ad1541d2e5030afb
+  $wouter ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><L,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+0a3cfd5a89e9805279f3434c2408b7d2
+  $wpoly_go1 ::
+    GHC.Prim.Word#
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> v
+    -> GHC.Prim.Int#
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+    -> GHC.Prim.State# s
+    -> (# GHC.Prim.State# s,
+          Data.HashMap.Base.HashMap Data.Text.Internal.Text v #)
+  {- Arity: 8,
+     Strictness: <L,U><L,U><L,U><L,U><L,U><L,U><S,1*U><L,U>,
+     Inline: [0] -}
+5c8277f6a0bfbc0616bac4dce2a7cefc
+  data JobParams
+    = JobParams {shellApi :: Data.Text.Internal.Text,
+                 thPort :: GHC.Types.Int,
+                 params :: Data.Text.Internal.Text}
+27da898c941c57d059517216e8dd9274
+  baeJobDef ::
+    Network.AWS.Batch.RegisterJobDefinition.RegisterJobDefinition
+  {- Unfolding: (case Data.Text.Show.unpackCString#
+                        "bae-job-def"# of dt { Data.Text.Internal.Text dt1 dt2 dt3 ->
+                 Network.AWS.Batch.RegisterJobDefinition.RegisterJobDefinition'
+                   (GHC.Base.Nothing @ Network.AWS.Batch.Types.Product.RetryStrategy)
+                   Main.baeJobDef3
+                   Main.baeJobDef1
+                   dt1
+                   dt2
+                   dt3 }) -}
+4c735b4bd5f73bdcb7888639c0363a75
+  baeJobDef1 ::
+    GHC.Base.Maybe Network.AWS.Batch.Types.Product.ContainerProperties
+  {- Unfolding: (GHC.Base.Just
+                   @ Network.AWS.Batch.Types.Product.ContainerProperties
+                   Main.baeJobDef2) -}
+a9ba368c6105c60fe316d76cf1e24567
+  baeJobDef2 :: Network.AWS.Batch.Types.Product.ContainerProperties
+  {- Unfolding: (case Data.Text.Show.unpackCString#
+                        "docker.darpa-brass.com/philip/brass-platform-alpine"# of dt { Data.Text.Internal.Text dt1 dt2 dt3 ->
+                 Network.AWS.Batch.Types.Product.ContainerProperties'
+                   (GHC.Base.Nothing @ [Data.Text.Internal.Text])
+                   (GHC.Base.Nothing @ [Network.AWS.Batch.Types.Product.KeyValuePair])
+                   (GHC.Base.Nothing @ [Network.AWS.Batch.Types.Product.Ulimit])
+                   (GHC.Base.Nothing @ GHC.Types.Bool)
+                   (GHC.Base.Nothing @ Data.Text.Internal.Text)
+                   (GHC.Base.Nothing @ Data.Text.Internal.Text)
+                   (GHC.Base.Nothing @ [Network.AWS.Batch.Types.Product.MountPoint])
+                   (GHC.Base.Nothing @ GHC.Types.Bool)
+                   (GHC.Base.Nothing @ [Network.AWS.Batch.Types.Product.Volume])
+                   dt1
+                   dt2
+                   dt3
+                   2#
+                   2000# }) -}
+6cc8c0122dcd98a56e6ba3109652c162
+  baeJobDef3 ::
+    GHC.Base.Maybe
+      (Network.AWS.Data.Map.Map
+         Data.Text.Internal.Text Data.Text.Internal.Text)
+  {- Unfolding: (GHC.Base.Just
+                   @ (Network.AWS.Data.Map.Map
+                        Data.Text.Internal.Text Data.Text.Internal.Text)
+                   Main.defaultParams
+                     `cast`
+                   (Sym (Network.AWS.Data.Map.N:Map[0]) <Data.Text.Internal.Text>_N <Data.Text.Internal.Text>_N)) -}
+419f8d97358a2d64e0f9c5becf6fd7d8
+  defaultParams ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Text.Internal.Text
+  {- Unfolding: (Main.jobParamsToHashMap Main.defaultParams1) -}
+7889396d71c9586db791c4f1078e7e3d
+  defaultParams1 :: Main.JobParams
+  {- Unfolding: (Main.JobParams
+                   Main.defaultParams3
+                   Main.defaultParams2
+                   Main.defaultParams3) -}
+0bf51dcba0819d206ff858d093aab0ca
+  defaultParams2 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 45000#) -}
+93b91dd36f1e0cf12da3b59ec089d35c
+  defaultParams3 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Default"#) -}
+085f9b534096f6dd80b5e2721e5cb24b
+  instanceOverview :: Network.AWS.Types.Region -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <L,1*U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.instanceOverview1
+                  `cast`
+                (<Network.AWS.Types.Region>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+bb72aa0575c2a4bfe1681231d5198c84
+  instanceOverview1 ::
+    Network.AWS.Types.Region
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,1*U><S,U> -}
+707779599a452138d5d68f796ce6169a
+  jobDefReq ::
+    Data.Text.Internal.Text
+    -> Data.HashMap.Base.HashMap
+         Data.Text.Internal.Text Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Network.AWS.Batch.RegisterJobDefinition.RegisterJobDefinition
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(SSS),1*U(U,U,U)><L,U><L,1*U(U,U,U)>m,
+     Unfolding: InlineRule (3, True, False)
+                (\ (name :: Data.Text.Internal.Text)
+                   (params1 :: Data.HashMap.Base.HashMap
+                                 Data.Text.Internal.Text Data.Text.Internal.Text)
+                   (image :: Data.Text.Internal.Text) ->
+                 case name of dt { Data.Text.Internal.Text dt1 dt2 dt3 ->
+                 Network.AWS.Batch.RegisterJobDefinition.RegisterJobDefinition'
+                   (GHC.Base.Nothing @ Network.AWS.Batch.Types.Product.RetryStrategy)
+                   (GHC.Base.Just
+                      @ (Network.AWS.Data.Map.Map
+                           Data.Text.Internal.Text Data.Text.Internal.Text)
+                      params1
+                        `cast`
+                      (Sym (Network.AWS.Data.Map.N:Map[0]) <Data.Text.Internal.Text>_N <Data.Text.Internal.Text>_N))
+                   (GHC.Base.Just
+                      @ Network.AWS.Batch.Types.Product.ContainerProperties
+                      (case image of dt4 { Data.Text.Internal.Text dt5 dt6 dt7 ->
+                       Network.AWS.Batch.Types.Product.ContainerProperties'
+                         (GHC.Base.Nothing @ [Data.Text.Internal.Text])
+                         (GHC.Base.Nothing @ [Network.AWS.Batch.Types.Product.KeyValuePair])
+                         (GHC.Base.Nothing @ [Network.AWS.Batch.Types.Product.Ulimit])
+                         (GHC.Base.Nothing @ GHC.Types.Bool)
+                         (GHC.Base.Nothing @ Data.Text.Internal.Text)
+                         (GHC.Base.Nothing @ Data.Text.Internal.Text)
+                         (GHC.Base.Nothing @ [Network.AWS.Batch.Types.Product.MountPoint])
+                         (GHC.Base.Nothing @ GHC.Types.Bool)
+                         (GHC.Base.Nothing @ [Network.AWS.Batch.Types.Product.Volume])
+                         dt5
+                         dt6
+                         dt7
+                         2#
+                         2000# }))
+                   dt1
+                   dt2
+                   dt3 }) -}
+abddf142044a4e4fdcb2d583f514a757
+  jobParamsToHashMap ::
+    Main.JobParams
+    -> Data.HashMap.Base.HashMap
+         Data.Text.Internal.Text Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <L,U(1*U,1*U(U),1*U)>,
+     Unfolding: (\ (j :: Main.JobParams) ->
+                 case Main.jobParamsToHashMap3 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                 case Main.$w$sunsafeInsert
+                        @ Data.Text.Internal.Text
+                        ww1
+                        ww2
+                        ww3
+                        (case j of wild { Main.JobParams ds ds1 ds2 -> ds })
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Text.Internal.Text) of z { DEFAULT ->
+                 case Main.jobParamsToHashMap2 of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
+                 case Main.$w$sunsafeInsert
+                        @ Data.Text.Internal.Text
+                        ww5
+                        ww6
+                        ww7
+                        (case j of wild { Main.JobParams ds ds1 ds2 ->
+                         case ds1 of ww8 { GHC.Types.I# ww9 ->
+                         case GHC.Show.$wshowSignedInt
+                                0#
+                                ww9
+                                (GHC.Types.[] @ GHC.Types.Char) of ww10 { (#,#) ww11 ww12 ->
+                         case GHC.Magic.runRW#
+                                @ 'GHC.Types.PtrRepLifted
+                                @ Data.Text.Internal.Text
+                                (\ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                                 case GHC.Prim.newByteArray#
+                                        @ GHC.Prim.RealWorld
+                                        10#
+                                        s1 of ds3 { (#,#) ipv ipv1 ->
+                                 Main.$wouter
+                                   ipv1
+                                   4#
+                                   (GHC.Types.: @ GHC.Types.Char ww11 ww12)
+                                   0#
+                                   ipv }) of ds3 { (#,#) ipv ipv1 ->
+                         ipv1 } } } })
+                        z of z1 { DEFAULT ->
+                 case Main.jobParamsToHashMap1 of ww8 { Data.Text.Internal.Text ww9 ww10 ww11 ->
+                 Main.$w$sunsafeInsert
+                   @ Data.Text.Internal.Text
+                   ww9
+                   ww10
+                   ww11
+                   (case j of wild { Main.JobParams ds ds1 ds2 -> ds2 })
+                   z1 } } } } }) -}
+143495ef129716a7d56f335d8ec50b99
+  jobParamsToHashMap1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "params"#) -}
+75fc75603631ff9af959ac56d5dadc54
+  jobParamsToHashMap2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "thPort"#) -}
+3f1406dbacac21de06f1bf0e81ae8f55
+  jobParamsToHashMap3 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "shellApi"#) -}
+b2b1b80d02f583a9e49920f45c833833
+  main :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+abd9a1badf71bf7a1d5cb1483f574f3a
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (Main.instanceOverview1 Network.AWS.Types.Ohio) -}
+0b8486d71fe3c21cc1b69af77bd4b4fe
+  main2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+02479252233dceab0b29256d04d123bd
+  params :: Main.JobParams -> Data.Text.Internal.Text
+  RecSel Left Main.JobParams
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLS),1*U(A,A,1*U(U,U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.JobParams) ->
+                 case ds of wild { Main.JobParams ds1 ds2 ds3 -> ds3 }) -}
+a36943f861026a047625175b516091b2
+  say ::
+    Control.Monad.IO.Class.MonadIO m => Data.Text.Internal.Text -> m ()
+  {- Arity: 2, Strictness: <S(LC(S)),1*U(A,1*C1(U))><L,U(U,U,U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ (m :: * -> *)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   (eta :: Data.Text.Internal.Text) ->
+                 Control.Monad.IO.Class.liftIO
+                   @ m
+                   $dMonadIO
+                   @ ()
+                   (Data.Text.IO.hPutStrLn1 GHC.IO.Handle.FD.stdout eta)
+                     `cast`
+                   (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+2b1faf9fbdf07f1b175e7a8c124777e1
+  sendHelper ::
+    Network.AWS.Types.AWSRequest a =>
+    a -> GHC.Types.IO (Network.AWS.Types.Rs a)
+  {- Arity: 3,
+     Strictness: <L,U(C(U(U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U)),C(C1(C1(C1(C1(U))))))><L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.sendHelper1
+                  `cast`
+                (forall (a :: <*>_N).
+                 <Network.AWS.Types.AWSRequest a>_R
+                 ->_R <a>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <Network.AWS.Types.Rs a>_R)) -}
+f9b160a80daf979953f547d37bc3fbf0
+  sendHelper1 ::
+    Network.AWS.Types.AWSRequest a =>
+    a
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, Network.AWS.Types.Rs a #)
+  {- Arity: 3,
+     Strictness: <L,U(C(U(U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U)),C(C1(C1(C1(C1(U))))))><L,U><S,U>,
+     Unfolding: (\ @ a
+                   ($dAWSRequest :: Network.AWS.Types.AWSRequest a)
+                   (eta :: a)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case Main.sendHelper3
+                        `cast`
+                      (GHC.Types.N:IO[0] <Network.AWS.Types.Logger>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case Network.HTTP.Client.TLS.tlsManagerSettings of ww { Network.HTTP.Client.Types.ManagerSettings ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ->
+                 case Network.HTTP.Client.Manager.$wnewManager
+                        ww1
+                        ww2
+                        ww3
+                        ww4
+                        ww5
+                        ww6
+                        ww7
+                        ww8
+                        ww9
+                        ww10
+                        ww11
+                        ww12
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case (Network.AWS.Env.newEnvWith
+                         @ GHC.Types.IO
+                         GHC.Base.$fApplicativeIO
+                         Control.Monad.IO.Class.$fMonadIOIO
+                         Control.Monad.Catch.$fMonadCatchIO
+                         Network.AWS.Auth.Discover
+                         (GHC.Base.Nothing @ GHC.Types.Bool)
+                         ipv3)
+                        `cast`
+                      (GHC.Types.N:IO[0] <Network.AWS.Env.Env>_R)
+                        ipv2 of ds { (#,#) ipv4 ipv5 ->
+                 (Control.Monad.Trans.Resource.runResourceT
+                    @ GHC.Types.IO
+                    @ (Network.AWS.Types.Rs a)
+                    Control.Monad.Trans.Control.$fMonadBaseControlIOIO
+                    ((Control.Monad.Trans.AWS.send
+                        @ Network.AWS.Env.Env
+                        @ (Control.Monad.Trans.AWS.AWST'
+                             Network.AWS.Env.Env
+                             (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+                        @ a
+                        Main.sendHelper2
+                        $dAWSRequest
+                        eta)
+                       `cast`
+                     (Trans
+                          (Control.Monad.Trans.AWS.N:AWST'[0] <Network.AWS.Env.Env>_N <Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                         GHC.Types.IO>_N <Network.AWS.Types.Rs
+                                                                                                            a>_N)
+                          (Control.Monad.Trans.Reader.N:ReaderT[0]
+                               <*>_N
+                               <Network.AWS.Env.Env>_R
+                               <Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO>_R
+                               <Network.AWS.Types.Rs a>_N))
+                       (case ipv5 of wild { Network.AWS.Env.Env ds3 ds4 ds5 ds6 dt dt1 dt2 dt3 dt4 dt5 dt6 dt7 dt8 dt9 dt10 dt11 dt12 dt13 ds7 ->
+                        case ipv1 of dt14 { DEFAULT ->
+                        Network.AWS.Env.Env
+                          Network.AWS.Types.Ohio
+                          dt14
+                          ds5
+                          ds6
+                          dt
+                          dt1
+                          dt2
+                          dt3
+                          dt4
+                          dt5
+                          dt6
+                          dt7
+                          dt8
+                          dt9
+                          dt10
+                          dt11
+                          dt12
+                          dt13
+                          ds7 } })))
+                   `cast`
+                 (GHC.Types.N:IO[0] <Network.AWS.Types.Rs a>_R)
+                   ipv4 } } } }) -}
+ae1dfa37d9087b9def1ea92eca575ebe
+  sendHelper2 ::
+    Control.Monad.Trans.AWS.AWSConstraint
+      Network.AWS.Env.Env
+      (Control.Monad.Trans.AWS.AWST'
+         Network.AWS.Env.Env
+         (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m,
+     Unfolding: ((Main.$s$fMonadCatchAWST' @ Network.AWS.Env.Env,
+                  Main.$s$fMonadResourceAWST' @ Network.AWS.Env.Env,
+                  Main.$s$fMonadReaderrAWST' @ Network.AWS.Env.Env,
+                  Network.AWS.Env.$fHasEnvEnv)) -}
+7d191af45a6e3e1b0b662c6bcee85240
+  sendHelper3 :: GHC.Types.IO Network.AWS.Types.Logger
+  {- Unfolding: (Network.AWS.Internal.Logger.newLogger
+                   @ GHC.Types.IO
+                   Control.Monad.IO.Class.$fMonadIOIO
+                   Network.AWS.Types.Info
+                   GHC.IO.Handle.FD.stdout) -}
+abcd04ccac917b32422ce6b854fe3088
+  shellApi :: Main.JobParams -> Data.Text.Internal.Text
+  RecSel Left Main.JobParams
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U(U,U,U),A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.JobParams) ->
+                 case ds of wild { Main.JobParams ds1 ds2 ds3 -> ds1 }) -}
+69fc620e3b971fed3ce1334ecc2f10ca
+  submitJob' ::
+    Main.JobParams -> Network.AWS.Batch.SubmitJob.SubmitJob
+  {- Arity: 1, Strictness: <L,U(U,U(U),U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (j :: Main.JobParams) ->
+                 case Main.submitJob'1 of wild { Network.AWS.Batch.SubmitJob.SubmitJob' ds ds1 ds2 ds3 dt dt1 dt2 dt3 dt4 dt5 dt6 dt7 dt8 ->
+                 Network.AWS.Batch.SubmitJob.SubmitJob'
+                   ds
+                   ds1
+                   ds2
+                   (GHC.Base.Just
+                      @ (Network.AWS.Data.Map.Map
+                           Data.Text.Internal.Text Data.Text.Internal.Text)
+                      (Main.jobParamsToHashMap j)
+                        `cast`
+                      (Sym (Network.AWS.Data.Map.N:Map[0]) <Data.Text.Internal.Text>_N <Data.Text.Internal.Text>_N))
+                   dt
+                   dt1
+                   dt2
+                   dt3
+                   dt4
+                   dt5
+                   dt6
+                   dt7
+                   dt8 }) -}
+e82b435aa00b44ca8b1434d9c6397610
+  submitJob'' ::
+    Data.Text.Internal.Text
+    -> GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> Network.AWS.Batch.SubmitJob.SubmitJob
+  {- Arity: 3, Strictness: <L,1*U><L,1*U(U)><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (x :: Data.Text.Internal.Text)
+                   (x1 :: GHC.Types.Int)
+                   (x2 :: Data.Text.Internal.Text) ->
+                 case Main.submitJob'1 of wild { Network.AWS.Batch.SubmitJob.SubmitJob' ds ds1 ds2 ds3 dt dt1 dt2 dt3 dt4 dt5 dt6 dt7 dt8 ->
+                 Network.AWS.Batch.SubmitJob.SubmitJob'
+                   ds
+                   ds1
+                   ds2
+                   (GHC.Base.Just
+                      @ (Network.AWS.Data.Map.Map
+                           Data.Text.Internal.Text Data.Text.Internal.Text)
+                      (Main.jobParamsToHashMap (Main.JobParams x x1 x2))
+                        `cast`
+                      (Sym (Network.AWS.Data.Map.N:Map[0]) <Data.Text.Internal.Text>_N <Data.Text.Internal.Text>_N))
+                   dt
+                   dt1
+                   dt2
+                   dt3
+                   dt4
+                   dt5
+                   dt6
+                   dt7
+                   dt8 }) -}
+15cb9a8ba4d80589cba3686af51759f5
+  submitJob'1 :: Network.AWS.Batch.SubmitJob.SubmitJob
+  {- Unfolding: (case Data.Text.Show.unpackCString#
+                        "bae-job-4500"# of dt { Data.Text.Internal.Text dt1 dt2 dt3 ->
+                 case Data.Text.Show.unpackCString#
+                        "bae-queue"# of dt4 { Data.Text.Internal.Text dt5 dt6 dt7 ->
+                 case Data.Text.Show.unpackCString#
+                        "bae-job-def"# of dt8 { Data.Text.Internal.Text dt9 dt10 dt11 ->
+                 Network.AWS.Batch.SubmitJob.SubmitJob'
+                   (GHC.Base.Nothing
+                      @ Network.AWS.Batch.Types.Product.ContainerOverrides)
+                   (GHC.Base.Nothing @ Network.AWS.Batch.Types.Product.RetryStrategy)
+                   (GHC.Base.Nothing
+                      @ [Network.AWS.Batch.Types.Product.JobDependency])
+                   (GHC.Base.Nothing
+                      @ (Network.AWS.Data.Map.Map
+                           Data.Text.Internal.Text Data.Text.Internal.Text))
+                   dt1
+                   dt2
+                   dt3
+                   dt5
+                   dt6
+                   dt7
+                   dt9
+                   dt10
+                   dt11 } } }) -}
+88fcf699fdc3cdeb405b1aa3d86d43a3
+  thPort :: Main.JobParams -> GHC.Types.Int
+  RecSel Left Main.JobParams
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U(U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.JobParams) ->
+                 case ds of wild { Main.JobParams ds1 ds2 ds3 -> ds2 }) -}
+"SPEC/Main $fApplicativeAWST' _ @ (ResourceT IO)" [ALWAYS] forall @ r
+                                                                  ($dApplicative :: GHC.Base.Applicative
+                                                                                      (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                         GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fApplicativeAWST' @ r
+                                             @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                  GHC.Types.IO)
+                                             $dApplicative
+  = Main.$s$fApplicativeAWST' @ r
+"SPEC/Main $fApplicativeAWST'_$cp1Applicative _ @ (ResourceT IO)" [ALWAYS] forall @ r
+                                                                                  ($dApplicative :: GHC.Base.Applicative
+                                                                                                      (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                         GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fApplicativeAWST'_$cp1Applicative @ r
+                                                             @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                  GHC.Types.IO)
+                                                             $dApplicative
+  = Main.$s$fApplicativeAWST'_$s$fApplicativeAWST'_$cp1Applicative
+      @ r
+"SPEC/Main $fApplicativeResourceT @ IO" [ALWAYS] forall ($dApplicative :: GHC.Base.Applicative
+                                                                            GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fApplicativeResourceT @ GHC.Types.IO
+                                                               $dApplicative
+  = Main.$s$fApplicativeAWST'_$s$fApplicativeResourceT
+"SPEC/Main $fApplicativeResourceT_$cp1Applicative @ IO" [ALWAYS] forall ($dApplicative :: GHC.Base.Applicative
+                                                                                            GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fApplicativeResourceT_$cp1Applicative @ GHC.Types.IO
+                                                                               $dApplicative
+  = Main.$s$fApplicativeAWST'_$s$fApplicativeResourceT_$cp1Applicative
+"SPEC/Main $fApplicativeResourceT_$cpure @ IO" [ALWAYS] forall ($dApplicative :: GHC.Base.Applicative
+                                                                                   GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fApplicativeResourceT_$cpure @ GHC.Types.IO
+                                                                      $dApplicative
+  = Main.$s$fApplicativeAWST'_$s$fApplicativeResourceT_$cpure
+"SPEC/Main $fFunctorAWST' _ @ (ResourceT IO)" [ALWAYS] forall @ r
+                                                              ($dFunctor :: GHC.Base.Functor
+                                                                              (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                 GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fFunctorAWST' @ r
+                                         @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                              GHC.Types.IO)
+                                         $dFunctor
+  = Main.$s$fApplicativeAWST'_$s$fFunctorAWST' @ r
+"SPEC/Main $fFunctorResourceT @ IO" [ALWAYS] forall ($dFunctor :: GHC.Base.Functor
+                                                                    GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fFunctorResourceT @ GHC.Types.IO
+                                                           $dFunctor
+  = Main.$s$fApplicativeAWST'_$s$fFunctorResourceT
+"SPEC/Main $fMonadAWST' _ @ (ResourceT IO)" [ALWAYS] forall @ r
+                                                            ($dMonad :: GHC.Base.Monad
+                                                                          (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                             GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadAWST' @ r
+                                       @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                            GHC.Types.IO)
+                                       $dMonad
+  = Main.$s$fMonadAWST' @ r
+"SPEC/Main $fMonadBasebAWST' @ IO @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                      ($dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                        GHC.Types.IO
+                                                                                        (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                           GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadBasebAWST' @ GHC.Types.IO
+                                            @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                 GHC.Types.IO)
+                                            @ r
+                                            $dMonadBase
+  = Main.$s$fMonadBasebAWST' @ r
+"SPEC/Main $fMonadBasebAWST'_$cliftBase @ IO @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                                 ($dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                                   GHC.Types.IO
+                                                                                                   (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                      GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadBasebAWST'_$cliftBase @ GHC.Types.IO
+                                                       @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                            GHC.Types.IO)
+                                                       @ r
+                                                       $dMonadBase
+  = Main.$s$fMonadBasebAWST'_$s$fMonadBasebAWST'_$cliftBase @ r
+"SPEC/Main $fMonadBasebAWST'_$cp1MonadBase @ IO @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                                    ($dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                                      GHC.Types.IO
+                                                                                                      (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                         GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadBasebAWST'_$cp1MonadBase @ GHC.Types.IO
+                                                          @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                               GHC.Types.IO)
+                                                          @ r
+                                                          $dMonadBase
+  = Main.$s$fMonadBasebAWST'_$s$fMonadBasebAWST'_$cp1MonadBase @ r
+"SPEC/Main $fMonadBasebAWST'_$cp3MonadBase @ IO @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                                    ($dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                                      GHC.Types.IO
+                                                                                                      (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                         GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadBasebAWST'_$cp3MonadBase @ GHC.Types.IO
+                                                          @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                               GHC.Types.IO)
+                                                          @ r
+                                                          $dMonadBase
+  = Main.$s$fMonadBasebAWST'_$s$fMonadBasebAWST'_$cp3MonadBase @ r
+"SPEC/Main $fMonadCatchAWST' @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                 ($dMonadCatch :: Control.Monad.Catch.MonadCatch
+                                                                                    (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                       GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadCatchAWST' @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                 GHC.Types.IO)
+                                            @ r
+                                            $dMonadCatch
+  = Main.$s$fMonadCatchAWST' @ r
+"SPEC/Main $fMonadCatchAWST'_$cp1MonadCatch @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                                ($dMonadCatch :: Control.Monad.Catch.MonadCatch
+                                                                                                   (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                      GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadCatchAWST'_$cp1MonadCatch @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                GHC.Types.IO)
+                                                           @ r
+                                                           $dMonadCatch
+  = Main.$s$fMonadCatchAWST'_$s$fMonadCatchAWST'_$cp1MonadCatch @ r
+"SPEC/Main $fMonadCatchResourceT @ IO" [ALWAYS] forall ($dMonadCatch :: Control.Monad.Catch.MonadCatch
+                                                                          GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fMonadCatchResourceT @ GHC.Types.IO
+                                                              $dMonadCatch
+  = Main.$s$fMonadCatchAWST'_$s$fMonadCatchResourceT
+"SPEC/Main $fMonadIOAWST' _ @ (ResourceT IO)" [ALWAYS] forall @ r
+                                                              ($dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                              (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                 GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadIOAWST' @ r
+                                         @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                              GHC.Types.IO)
+                                         $dMonadIO
+  = Main.$s$fMonadIOAWST' @ r
+"SPEC/Main $fMonadIOResourceT @ IO" [ALWAYS] forall ($dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                    GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fMonadIOResourceT @ GHC.Types.IO
+                                                           $dMonadIO
+  = Main.$s$fMonadIOAWST'_$s$fMonadIOResourceT
+"SPEC/Main $fMonadIOResourceT_$cliftIO @ IO" [ALWAYS] forall ($dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                             GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fMonadIOResourceT_$cliftIO @ GHC.Types.IO
+                                                                    $dMonadIO
+  = Main.$s$fMonadBasebAWST'_$s$fMonadIOResourceT_$cliftIO
+"SPEC/Main $fMonadReaderrAWST' @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                   ($dMonad :: GHC.Base.Monad
+                                                                                 (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                    GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadReaderrAWST' @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                   GHC.Types.IO)
+                                              @ r
+                                              $dMonad
+  = Main.$s$fMonadReaderrAWST' @ r
+"SPEC/Main $fMonadResourceAWST' @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                    ($dMonadResource :: Control.Monad.Trans.Resource.Internal.MonadResource
+                                                                                          (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                             GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadResourceAWST' @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                    GHC.Types.IO)
+                                               @ r
+                                               $dMonadResource
+  = Main.$s$fMonadResourceAWST' @ r
+"SPEC/Main $fMonadResourceAWST'_$cliftResourceT @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                                    ($dMonadResource :: Control.Monad.Trans.Resource.Internal.MonadResource
+                                                                                                          (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                             GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadResourceAWST'_$cliftResourceT @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                    GHC.Types.IO)
+                                                               @ r
+                                                               $dMonadResource
+  = Main.$s$fMonadResourceAWST'_$s$fMonadResourceAWST'_$cliftResourceT
+      @ r
+"SPEC/Main $fMonadResourceAWST'_$cp2MonadResource @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                                      ($dMonadResource :: Control.Monad.Trans.Resource.Internal.MonadResource
+                                                                                                            (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                               GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadResourceAWST'_$cp2MonadResource @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                      GHC.Types.IO)
+                                                                 @ r
+                                                                 $dMonadResource
+  = Main.$s$fMonadResourceAWST'_$s$fMonadResourceAWST'_$cp2MonadResource
+      @ r
+"SPEC/Main $fMonadResourceAWST'_$cp3MonadResource @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                                      ($dMonadResource :: Control.Monad.Trans.Resource.Internal.MonadResource
+                                                                                                            (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                               GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadResourceAWST'_$cp3MonadResource @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                      GHC.Types.IO)
+                                                                 @ r
+                                                                 $dMonadResource
+  = Main.$s$fMonadAWST'_$s$fMonadResourceAWST'_$cp3MonadResource @ r
+"SPEC/Main $fMonadResourceAWST'_$cp4MonadResource @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                                      ($dMonadResource :: Control.Monad.Trans.Resource.Internal.MonadResource
+                                                                                                            (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                               GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadResourceAWST'_$cp4MonadResource @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                      GHC.Types.IO)
+                                                                 @ r
+                                                                 $dMonadResource
+  = Main.$s$fMonadResourceAWST'_$s$fMonadResourceAWST'_$cp4MonadResource
+      @ r
+"SPEC/Main $fMonadResourceResourceT_$cp1MonadResource @ IO" [ALWAYS] forall ($dApplicative :: GHC.Base.Applicative
+                                                                                                GHC.Types.IO)
+                                                                            ($dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                                            GHC.Types.IO)
+                                                                            ($dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                              GHC.Types.IO
+                                                                                              GHC.Types.IO)
+                                                                            ($dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                               GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fMonadResourceResourceT_$cp1MonadResource @ GHC.Types.IO
+                                                                                   $dMonadThrow
+                                                                                   $dMonadBase
+                                                                                   $dMonadIO
+                                                                                   $dApplicative
+  = Main.$s$fMonadCatchAWST'_$s$fMonadResourceResourceT_$cp1MonadResource
+"SPEC/Main $fMonadResourceT @ IO" [ALWAYS] forall ($dMonad :: GHC.Base.Monad
+                                                                GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fMonadResourceT @ GHC.Types.IO
+                                                         $dMonad
+  = Main.$s$fMonadAWST'_$s$fMonadResourceT
+"SPEC/Main $fMonadResourceT_$cfail @ IO" [ALWAYS] forall ($dMonad :: GHC.Base.Monad
+                                                                       GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fMonadResourceT_$cfail @ GHC.Types.IO
+                                                                $dMonad
+  = Main.$s$fMonadAWST'_$s$fMonadResourceT_$cfail
+"SPEC/Main $fMonadThrowAWST' @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                 ($dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                    (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                       GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadThrowAWST' @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                 GHC.Types.IO)
+                                            @ r
+                                            $dMonadThrow
+  = Main.$s$fMonadCatchAWST'_$s$fMonadThrowAWST' @ r
+"SPEC/Main $fMonadThrowAWST'_$cp1MonadThrow @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                                ($dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                                   (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                      GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadThrowAWST'_$cp1MonadThrow @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                GHC.Types.IO)
+                                                           @ r
+                                                           $dMonadThrow
+  = Main.$s$fMonadBasebAWST'_$s$fMonadThrowAWST'_$cp1MonadThrow @ r
+"SPEC/Main $fMonadThrowAWST'_$cthrowM @ (ResourceT IO) _" [ALWAYS] forall @ r
+                                                                          ($dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                             (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                GHC.Types.IO))
+  Control.Monad.Trans.AWS.$fMonadThrowAWST'_$cthrowM @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                          GHC.Types.IO)
+                                                     @ r
+                                                     $dMonadThrow
+  = Main.$s$fMonadCatchAWST'_$s$fMonadThrowAWST'_$cthrowM @ r
+"SPEC/Main $fMonadThrowResourceT @ IO" [ALWAYS] forall ($dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                          GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fMonadThrowResourceT @ GHC.Types.IO
+                                                              $dMonadThrow
+  = Main.$s$fMonadCatchAWST'_$s$fMonadThrowResourceT
+"SPEC/Main $fMonadThrowResourceT_$cthrowM @ IO" [ALWAYS] forall ($dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                   GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fMonadThrowResourceT_$cthrowM @ GHC.Types.IO
+                                                                       $dMonadThrow
+  = Main.$s$fMonadCatchAWST'_$s$fMonadThrowResourceT_$cthrowM
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

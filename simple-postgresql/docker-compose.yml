@@ -1,0 +1,20 @@
+version: "3"
+services:
+
+
+  db:
+    image: postgres:latest
+    restart: unless-stopped
+    ports:
+     - "5433:5432"
+    volumes:
+      - ./pgdata/:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: ${PGPASS}
+      POSTGRES_DB: brassq
+      POSTGRES_USER: brassq
+
+# psql postgres -U postgres -h localhost -p 5433
+
+#POSTGRES_USER
+#https://docs.docker.com/samples/library/postgres/#-via-docker-stack-deploy-or-docker-compose

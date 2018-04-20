@@ -1,0 +1,107 @@
+Configuring amazonka-core-1.4.5...
+Building amazonka-core-1.4.5...
+Preprocessing library amazonka-core-1.4.5...
+[ 1 of 31] Compiling Network.AWS.Lens ( src/Network/AWS/Lens.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Lens.o )
+[ 2 of 31] Compiling Network.AWS.Data.Crypto ( src/Network/AWS/Data/Crypto.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Crypto.o )
+[ 3 of 31] Compiling Network.AWS.Data.Text ( src/Network/AWS/Data/Text.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Text.o )
+
+src/Network/AWS/Data/Text.hs:31:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 4 of 31] Compiling Network.AWS.Data.JSON ( src/Network/AWS/Data/JSON.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/JSON.o )
+[ 5 of 31] Compiling Network.AWS.Data.ByteString ( src/Network/AWS/Data/ByteString.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/ByteString.o )
+[ 6 of 31] Compiling Network.AWS.Data.Headers ( src/Network/AWS/Data/Headers.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Headers.o )
+[ 7 of 31] Compiling Network.AWS.Data.Path ( src/Network/AWS/Data/Path.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Path.o )
+[ 8 of 31] Compiling Network.AWS.Data.Query ( src/Network/AWS/Data/Query.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Query.o )
+[ 9 of 31] Compiling Network.AWS.Data.Log ( src/Network/AWS/Data/Log.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Log.o )
+[10 of 31] Compiling Network.AWS.Data.XML ( src/Network/AWS/Data/XML.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/XML.o )
+
+src/Network/AWS/Data/XML.hs:18:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[11 of 31] Compiling Network.AWS.Data.List1 ( src/Network/AWS/Data/List1.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/List1.o )
+
+src/Network/AWS/Data/List1.hs:18:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[12 of 31] Compiling Network.AWS.Data.Map ( src/Network/AWS/Data/Map.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Map.o )
+
+src/Network/AWS/Data/Map.hs:27:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Network/AWS/Data/Map.hs:34:1: warning: [-Wunused-imports]
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+src/Network/AWS/Data/Map.hs:41:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[13 of 31] Compiling Network.AWS.Data.Numeric ( src/Network/AWS/Data/Numeric.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Numeric.o )
+
+src/Network/AWS/Data/Numeric.hs:21:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[14 of 31] Compiling Network.AWS.Data.Sensitive ( src/Network/AWS/Data/Sensitive.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Sensitive.o )
+
+src/Network/AWS/Data/Sensitive.hs:18:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[15 of 31] Compiling Network.AWS.Data.Body ( src/Network/AWS/Data/Body.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Body.o )
+[16 of 31] Compiling Network.AWS.Types ( src/Network/AWS/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Types.o )
+[17 of 31] Compiling Network.AWS.Endpoint ( src/Network/AWS/Endpoint.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Endpoint.o )
+[18 of 31] Compiling Network.AWS.Error ( src/Network/AWS/Error.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Error.o )
+[19 of 31] Compiling Network.AWS.Pager ( src/Network/AWS/Pager.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Pager.o )
+[20 of 31] Compiling Network.AWS.Request ( src/Network/AWS/Request.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Request.o )
+[21 of 31] Compiling Network.AWS.Response ( src/Network/AWS/Response.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Response.o )
+[22 of 31] Compiling Network.AWS.Waiter ( src/Network/AWS/Waiter.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Waiter.o )
+
+src/Network/AWS/Waiter.hs:34:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[23 of 31] Compiling Network.AWS.Data.Base64 ( src/Network/AWS/Data/Base64.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Base64.o )
+[24 of 31] Compiling Network.AWS.Compat.Time ( src/Network/AWS/Compat/Time.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Compat/Time.o )
+[25 of 31] Compiling Network.AWS.Compat.Locale ( src/Network/AWS/Compat/Locale.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Compat/Locale.o )
+[26 of 31] Compiling Network.AWS.Data.Time ( src/Network/AWS/Data/Time.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Data/Time.o )
+
+src/Network/AWS/Data/Time.hs:46:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[27 of 31] Compiling Network.AWS.Prelude ( src/Network/AWS/Prelude.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Prelude.o )
+[28 of 31] Compiling Network.AWS.Sign.V2 ( src/Network/AWS/Sign/V2.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Sign/V2.o )
+
+src/Network/AWS/Sign/V2.hs:19:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[29 of 31] Compiling Network.AWS.Sign.V4.Base ( src/Network/AWS/Sign/V4/Base.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Sign/V4/Base.o )
+
+src/Network/AWS/Sign/V4/Base.hs:22:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[30 of 31] Compiling Network.AWS.Sign.V4.Chunked ( src/Network/AWS/Sign/V4/Chunked.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Sign/V4/Chunked.o )
+
+src/Network/AWS/Sign/V4/Chunked.hs:27:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[31 of 31] Compiling Network.AWS.Sign.V4 ( src/Network/AWS/Sign/V4.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Sign/V4.o )
+
+src/Network/AWS/Sign/V4.hs:25:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+Installing library in
+/Users/ph27868/.stack/snapshots/x86_64-osx/lts-9.14/8.0.2/lib/x86_64-osx-ghc-8.0.2/amazonka-core-1.4.5-31A4ne5pEjQC2F07bcN5LB
+Registering amazonka-core-1.4.5...

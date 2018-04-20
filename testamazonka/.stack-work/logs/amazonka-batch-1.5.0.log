@@ -1,0 +1,27 @@
+Configuring amazonka-batch-1.5.0...
+Building amazonka-batch-1.5.0...
+Preprocessing library amazonka-batch-1.5.0...
+[ 1 of 21] Compiling Network.AWS.Batch.Types.Sum ( gen/Network/AWS/Batch/Types/Sum.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/Types/Sum.o )
+[ 2 of 21] Compiling Network.AWS.Batch.Types.Product ( gen/Network/AWS/Batch/Types/Product.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/Types/Product.o )
+[ 3 of 21] Compiling Network.AWS.Batch.Types ( gen/Network/AWS/Batch/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/Types.o )
+[ 4 of 21] Compiling Network.AWS.Batch.UpdateComputeEnvironment ( gen/Network/AWS/Batch/UpdateComputeEnvironment.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/UpdateComputeEnvironment.o )
+[ 5 of 21] Compiling Network.AWS.Batch.UpdateJobQueue ( gen/Network/AWS/Batch/UpdateJobQueue.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/UpdateJobQueue.o )
+[ 6 of 21] Compiling Network.AWS.Batch.Waiters ( gen/Network/AWS/Batch/Waiters.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/Waiters.o )
+[ 7 of 21] Compiling Network.AWS.Batch.TerminateJob ( gen/Network/AWS/Batch/TerminateJob.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/TerminateJob.o )
+[ 8 of 21] Compiling Network.AWS.Batch.SubmitJob ( gen/Network/AWS/Batch/SubmitJob.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/SubmitJob.o )
+[ 9 of 21] Compiling Network.AWS.Batch.RegisterJobDefinition ( gen/Network/AWS/Batch/RegisterJobDefinition.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/RegisterJobDefinition.o )
+[10 of 21] Compiling Network.AWS.Batch.ListJobs ( gen/Network/AWS/Batch/ListJobs.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/ListJobs.o )
+[11 of 21] Compiling Network.AWS.Batch.DescribeJobs ( gen/Network/AWS/Batch/DescribeJobs.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/DescribeJobs.o )
+[12 of 21] Compiling Network.AWS.Batch.DescribeJobQueues ( gen/Network/AWS/Batch/DescribeJobQueues.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/DescribeJobQueues.o )
+[13 of 21] Compiling Network.AWS.Batch.DescribeJobDefinitions ( gen/Network/AWS/Batch/DescribeJobDefinitions.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/DescribeJobDefinitions.o )
+[14 of 21] Compiling Network.AWS.Batch.DescribeComputeEnvironments ( gen/Network/AWS/Batch/DescribeComputeEnvironments.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/DescribeComputeEnvironments.o )
+[15 of 21] Compiling Network.AWS.Batch.DeregisterJobDefinition ( gen/Network/AWS/Batch/DeregisterJobDefinition.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/DeregisterJobDefinition.o )
+[16 of 21] Compiling Network.AWS.Batch.DeleteJobQueue ( gen/Network/AWS/Batch/DeleteJobQueue.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/DeleteJobQueue.o )
+[17 of 21] Compiling Network.AWS.Batch.DeleteComputeEnvironment ( gen/Network/AWS/Batch/DeleteComputeEnvironment.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/DeleteComputeEnvironment.o )
+[18 of 21] Compiling Network.AWS.Batch.CreateJobQueue ( gen/Network/AWS/Batch/CreateJobQueue.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/CreateJobQueue.o )
+[19 of 21] Compiling Network.AWS.Batch.CreateComputeEnvironment ( gen/Network/AWS/Batch/CreateComputeEnvironment.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/CreateComputeEnvironment.o )
+[20 of 21] Compiling Network.AWS.Batch.CancelJob ( gen/Network/AWS/Batch/CancelJob.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch/CancelJob.o )
+[21 of 21] Compiling Network.AWS.Batch ( gen/Network/AWS/Batch.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/AWS/Batch.o )
+Installing library in
+/Users/ph27868/Documents/haskell/testamazonka/.stack-work/install/x86_64-osx/lts-9.14/8.0.2/lib/x86_64-osx-ghc-8.0.2/amazonka-batch-1.5.0-7vj5iHR0D941q3caEXwHkt
+Registering amazonka-batch-1.5.0...
